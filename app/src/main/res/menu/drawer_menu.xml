@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:ignore="HardcodedText"
+    tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="single">
+
+        <item
+            android:id="@+id/nav_dashboard"
+            android:icon="@drawable/ic_dashboard"
+            android:title="Dashboard " />
+
+        <item
+            android:id="@+id/nav_deans"
+            android:icon="@drawable/ic_info"
+            android:title="Dean's info" />
+
+        <item
+            android:id="@+id/nav_school"
+            android:icon="@drawable/ic_school"
+            android:title="Schools" />
+
+    </group>
+
+    <item android:title="Communicate">
+        <menu>
+            <group android:checkableBehavior="single">
+
+            <item
+                android:id="@+id/nav_contact"
+                android:icon="@drawable/ic_contacts"
+                android:title="Contacs" />
+            <item
+                android:id="@+id/nav_connect"
+                android:icon="@drawable/ic_connect"
+                android:title="CUTM Connect" />
+
+            </group>
+        </menu>
+    </item>
+
+</menu>
