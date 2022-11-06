@@ -38,7 +38,7 @@
                 android:layout_width="181dp"
                 android:layout_height="146dp"
                 app:srcCompat="@drawable/cutm"
-                android:layout_marginLeft="120dp"/>
+                android:layout_marginStart="120dp"/>
         </FrameLayout>
 
     </LinearLayout>
