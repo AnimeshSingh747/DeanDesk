@@ -6,9 +6,9 @@
         android:allowBackup="true"
         android:dataExtractionRules="@xml/data_extraction_rules"
         android:fullBackupContent="@xml/backup_rules"
-        android:icon="@drawable/desklogo"
+        android:icon="@drawable/cutm"
         android:label="Dean's Desk"
-        android:roundIcon="@drawable/desklogo"
+        android:roundIcon="@drawable/cutm"
         android:supportsRtl="true"
         android:theme="@style/Theme.CUTMDesk"
         tools:targetApi="33">

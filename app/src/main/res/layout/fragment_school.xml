@@ -1,12 +1,13 @@
 <?xml version="1.0" encoding="utf-8"?>
 <ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    xmlns:tools="http://schemas.android.com/tools"
-    android:background="@color/black">
+    android:background="@drawable/bg">
 
-    <ScrollView android:layout_width="match_parent"
+    <ScrollView
+        android:layout_width="match_parent"
         android:layout_height="wrap_content"
         tools:ignore="NestedScrolling">
 
@@ -24,7 +25,8 @@
                 android:layout_marginStart="10dp"
                 android:layout_marginTop="10dp"
                 android:layout_marginEnd="10dp"
-                app:srcCompat="@drawable/soet1" />
+                app:srcCompat="@drawable/soet1"
+                tools:ignore="ContentDescription" />
 
             <ImageView
                 android:id="@+id/SoVET2"
@@ -63,7 +65,7 @@
                 android:layout_marginTop="20dp"
                 android:layout_marginEnd="10dp"
                 app:srcCompat="@drawable/soas4"
-                tools:ignore="ContentDescription"/>
+                tools:ignore="ContentDescription" />
 
             <ImageView
                 android:id="@+id/SOMC5"
@@ -76,7 +78,7 @@
                 android:layout_marginTop="20dp"
                 android:layout_marginEnd="10dp"
                 app:srcCompat="@drawable/somc5"
-                tools:ignore="ContentDescription"/>
+                tools:ignore="ContentDescription" />
 
             <ImageView
                 android:id="@+id/SOP6"
@@ -89,7 +91,7 @@
                 android:layout_marginTop="20dp"
                 android:layout_marginEnd="10dp"
                 app:srcCompat="@drawable/sop6"
-                tools:ignore="ContentDescription"/>
+                tools:ignore="ContentDescription" />
 
             <ImageView
                 android:id="@+id/MSSSOA7"
@@ -102,7 +104,7 @@
                 android:layout_marginTop="20dp"
                 android:layout_marginEnd="10dp"
                 app:srcCompat="@drawable/mssoa7"
-                tools:ignore="ContentDescription"/>
+                tools:ignore="ContentDescription" />
 
             <ImageView
                 android:id="@+id/SOABE8"
@@ -115,7 +117,7 @@
                 android:layout_marginTop="20dp"
                 android:layout_marginEnd="10dp"
                 app:srcCompat="@drawable/soabe8"
-                tools:ignore="ContentDescription"/>
+                tools:ignore="ContentDescription" />
 
             <ImageView
                 android:id="@+id/SOM9"
@@ -128,7 +130,7 @@
                 android:layout_marginTop="20dp"
                 android:layout_marginEnd="10dp"
                 app:srcCompat="@drawable/som9"
-                tools:ignore="ContentDescription"/>
+                tools:ignore="ContentDescription" />
 
             <ImageView
                 android:id="@+id/SOPAHS10"
@@ -141,7 +143,7 @@
                 android:layout_marginTop="20dp"
                 android:layout_marginEnd="10dp"
                 app:srcCompat="@drawable/sopahs10"
-                tools:ignore="ContentDescription"/>
+                tools:ignore="ContentDescription" />
 
             <ImageView
                 android:id="@+id/SOFS11"
@@ -154,10 +156,10 @@
                 android:layout_marginTop="20dp"
                 android:layout_marginEnd="10dp"
                 app:srcCompat="@drawable/sofs11"
-                tools:ignore="ContentDescription"/>
+                tools:ignore="ContentDescription" />
         </RelativeLayout>
 
-        
+
     </ScrollView>
 
 
