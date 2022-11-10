@@ -9,8 +9,8 @@
 
     <ImageView
         android:id="@+id/imageView4"
-        android:layout_width="191dp"
-        android:layout_height="170dp"
+        android:layout_width="157dp"
+        android:layout_height="134dp"
         android:layout_marginTop="16dp"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
@@ -18,8 +18,8 @@
         app:srcCompat="@drawable/desklogo" />
 
     <LinearLayout
-        android:layout_width="363dp"
-        android:layout_height="324dp"
+        android:layout_width="329dp"
+        android:layout_height="317dp"
         android:background="@drawable/loginui"
         android:orientation="vertical"
         app:layout_constraintBottom_toBottomOf="parent"
