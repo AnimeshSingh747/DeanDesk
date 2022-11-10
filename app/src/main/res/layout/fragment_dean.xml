@@ -15,7 +15,6 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content">
 
-
             <ImageView
                 android:id="@+id/DEANSOET"
                 android:layout_width="wrap_content"
@@ -24,8 +23,8 @@
                 android:layout_alignParentTop="true"
                 android:layout_alignParentEnd="true"
                 android:layout_marginStart="21dp"
-                android:layout_marginTop="37dp"
-                android:layout_marginEnd="24dp"
+                android:layout_marginTop="20dp"
+                android:layout_marginEnd="21dp"
                 app:srcCompat="@drawable/deansoet2" />
 
             <ImageView
@@ -36,8 +35,8 @@
                 android:layout_alignParentStart="true"
                 android:layout_alignParentEnd="true"
                 android:layout_marginStart="21dp"
-                android:layout_marginTop="50dp"
-                android:layout_marginEnd="24dp"
+                android:layout_marginTop="10dp"
+                android:layout_marginEnd="21dp"
                 app:srcCompat="@drawable/deansoet2" />
 
             <ImageView
@@ -48,10 +47,9 @@
                 android:layout_alignParentStart="true"
                 android:layout_alignParentEnd="true"
                 android:layout_marginStart="21dp"
-                android:layout_marginTop="50dp"
-                android:layout_marginEnd="24dp"
+                android:layout_marginTop="10dp"
+                android:layout_marginEnd="21dp"
                 app:srcCompat="@drawable/deansoet2" />
-
 
         </RelativeLayout>
 
