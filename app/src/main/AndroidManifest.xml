@@ -7,12 +7,18 @@
         android:dataExtractionRules="@xml/data_extraction_rules"
         android:fullBackupContent="@xml/backup_rules"
         android:icon="@drawable/cutm"
-        android:label="Dean's Desk"
+        android:label="Dean&apos;s Desk"
         android:roundIcon="@drawable/cutm"
         android:supportsRtl="true"
         android:theme="@style/Theme.CUTMDesk"
         tools:targetApi="33">
-
+        <activity
+            android:name=".activity_login"
+            android:exported="false">
+            <meta-data
+                android:name="android.app.lib_name"
+                android:value="" />
+        </activity>
         <activity
             android:name=".splash_screen"
             android:exported="true">
@@ -26,16 +32,13 @@
                 android:name="android.app.lib_name"
                 android:value="" />
         </activity>
-
         <activity
             android:name=".MainActivity"
             android:exported="true">
-
             <meta-data
                 android:name="android.app.lib_name"
                 android:value="" />
         </activity>
-
     </application>
 
 </manifest>
