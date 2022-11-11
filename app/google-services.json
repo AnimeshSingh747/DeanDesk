@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "626757711915",
+    "project_id": "cutm-deandesk",
+    "storage_bucket": "cutm-deandesk.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:626757711915:android:8682a110aa382d39d7d26e",
+        "android_client_info": {
+          "package_name": "com.example.cutmdesk"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "626757711915-im4u7kk7a5pd4d9qidc7fc8rrnvd516h.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDHFTpZ8XlCCKI5aeSGRxmuQydVqZU_dhA"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "626757711915-im4u7kk7a5pd4d9qidc7fc8rrnvd516h.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
