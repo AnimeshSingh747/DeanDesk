@@ -45,7 +45,8 @@
                 android:layout_height="wrap_content"
                 android:hint="Username"
                 android:inputType="text"
-                android:maxLength="15" />
+                android:maxLength="15"
+                tools:ignore="SpeakableTextPresentCheck" />
 
         </com.google.android.material.textfield.TextInputLayout>
 
@@ -66,7 +67,8 @@
                 android:layout_height="wrap_content"
                 android:hint="Password"
                 android:inputType="textPassword"
-                android:maxLength="15" />
+                android:maxLength="15"
+                tools:ignore="SpeakableTextPresentCheck" />
 
         </com.google.android.material.textfield.TextInputLayout>
 
