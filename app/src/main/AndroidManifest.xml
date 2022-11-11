@@ -10,6 +10,8 @@
         android:label="Dean&apos;s Desk"
         android:roundIcon="@drawable/cutm"
         android:supportsRtl="true"
+        android:hardwareAccelerated="true"
+        android:largeHeap="true"
         android:theme="@style/Theme.CUTMDesk"
         tools:targetApi="33">
         <activity
