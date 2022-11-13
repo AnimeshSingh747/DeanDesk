@@ -16,7 +16,7 @@
             android:layout_height="wrap_content">
 
             <ImageView
-                android:id="@+id/SOET1"
+                android:id="@+id/soet1"
                 android:layout_width="wrap_content"
                 android:layout_height="113dp"
                 android:layout_alignParentStart="true"
@@ -29,10 +29,10 @@
                 tools:ignore="ContentDescription" />
 
             <ImageView
-                android:id="@+id/SoVET2"
+                android:id="@+id/sovet2"
                 android:layout_width="wrap_content"
                 android:layout_height="122dp"
-                android:layout_below="@+id/SOET1"
+                android:layout_below="@+id/soet1"
                 android:layout_alignParentStart="true"
                 android:layout_alignParentEnd="true"
                 android:layout_marginStart="10dp"
@@ -42,10 +42,10 @@
                 tools:ignore="ContentDescription" />
 
             <ImageView
-                android:id="@+id/SOF3"
+                android:id="@+id/sof3"
                 android:layout_width="wrap_content"
                 android:layout_height="122dp"
-                android:layout_below="@+id/SoVET2"
+                android:layout_below="@+id/sovet2"
                 android:layout_alignParentStart="true"
                 android:layout_alignParentEnd="true"
                 android:layout_marginStart="10dp"
@@ -55,10 +55,10 @@
                 tools:ignore="ContentDescription" />
 
             <ImageView
-                android:id="@+id/SOAS4"
+                android:id="@+id/soas4"
                 android:layout_width="wrap_content"
                 android:layout_height="121dp"
-                android:layout_below="@+id/SOF3"
+                android:layout_below="@+id/sof3"
                 android:layout_alignParentStart="true"
                 android:layout_alignParentEnd="true"
                 android:layout_marginStart="10dp"
@@ -68,10 +68,10 @@
                 tools:ignore="ContentDescription" />
 
             <ImageView
-                android:id="@+id/SOMC5"
+                android:id="@+id/somc5"
                 android:layout_width="401dp"
                 android:layout_height="128dp"
-                android:layout_below="@+id/SOAS4"
+                android:layout_below="@+id/soas4"
                 android:layout_alignParentStart="true"
                 android:layout_alignParentEnd="true"
                 android:layout_marginStart="10dp"
@@ -81,10 +81,10 @@
                 tools:ignore="ContentDescription" />
 
             <ImageView
-                android:id="@+id/SOP6"
+                android:id="@+id/sop6"
                 android:layout_width="wrap_content"
                 android:layout_height="127dp"
-                android:layout_below="@+id/SOMC5"
+                android:layout_below="@+id/somc5"
                 android:layout_alignParentStart="true"
                 android:layout_alignParentEnd="true"
                 android:layout_marginStart="10dp"
@@ -94,10 +94,10 @@
                 tools:ignore="ContentDescription" />
 
             <ImageView
-                android:id="@+id/MSSSOA7"
+                android:id="@+id/msssoa7"
                 android:layout_width="wrap_content"
                 android:layout_height="117dp"
-                android:layout_below="@+id/SOP6"
+                android:layout_below="@+id/sop6"
                 android:layout_alignParentStart="true"
                 android:layout_alignParentEnd="true"
                 android:layout_marginStart="10dp"
@@ -107,10 +107,10 @@
                 tools:ignore="ContentDescription" />
 
             <ImageView
-                android:id="@+id/SOABE8"
+                android:id="@+id/soabe8"
                 android:layout_width="wrap_content"
                 android:layout_height="119dp"
-                android:layout_below="@+id/MSSSOA7"
+                android:layout_below="@+id/msssoa7"
                 android:layout_alignParentStart="true"
                 android:layout_alignParentEnd="true"
                 android:layout_marginStart="10dp"
@@ -120,10 +120,10 @@
                 tools:ignore="ContentDescription" />
 
             <ImageView
-                android:id="@+id/SOM9"
+                android:id="@+id/som9"
                 android:layout_width="wrap_content"
                 android:layout_height="117dp"
-                android:layout_below="@+id/SOABE8"
+                android:layout_below="@+id/soabe8"
                 android:layout_alignParentStart="true"
                 android:layout_alignParentEnd="true"
                 android:layout_marginStart="10dp"
@@ -133,10 +133,10 @@
                 tools:ignore="ContentDescription" />
 
             <ImageView
-                android:id="@+id/SOPAHS10"
+                android:id="@+id/sopahs10"
                 android:layout_width="wrap_content"
                 android:layout_height="107dp"
-                android:layout_below="@+id/SOM9"
+                android:layout_below="@+id/som9"
                 android:layout_alignParentStart="true"
                 android:layout_alignParentEnd="true"
                 android:layout_marginStart="10dp"
@@ -146,10 +146,10 @@
                 tools:ignore="ContentDescription" />
 
             <ImageView
-                android:id="@+id/SOFS11"
+                android:id="@+id/sofs11"
                 android:layout_width="wrap_content"
                 android:layout_height="127dp"
-                android:layout_below="@+id/SOPAHS10"
+                android:layout_below="@+id/sopahs10"
                 android:layout_alignParentStart="true"
                 android:layout_alignParentEnd="true"
                 android:layout_marginStart="10dp"

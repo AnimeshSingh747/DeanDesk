@@ -9,9 +9,11 @@
         android:dataExtractionRules="@xml/data_extraction_rules"
         android:fullBackupContent="@xml/backup_rules"
         android:icon="@drawable/cutm"
-        android:label="Dean&apos;s Desk"
+        android:label="Dean's Desk"
         android:roundIcon="@drawable/cutm"
         android:supportsRtl="true"
+        android:hardwareAccelerated="true"
+        android:largeHeap="true"
         android:theme="@style/Theme.CUTMDesk"
         tools:targetApi="33">
         <activity
@@ -56,6 +58,7 @@
                 android:name="android.app.lib_name"
                 android:value="" />
         </activity>
+
         <activity
             android:name=".DashboardFragment"
             android:exported="true">
@@ -63,6 +66,12 @@
                 android:name="android.app.lib_name"
                 android:value="" />
         </activity>
+
+
+        <meta-data
+            android:name="preloaded_fonts"
+            android:resource="@array/preloaded_fonts" />
+
     </application>
 
 </manifest>

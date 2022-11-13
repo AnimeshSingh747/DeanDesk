@@ -13,23 +13,24 @@ import androidx.fragment.app.Fragment;
 public class SchoolFragment extends Fragment implements View.OnClickListener {
 
 
-    ImageView SOET1;
-    ImageView SOEVT2;
-    ImageView SOF3;
-    ImageView SOAS4;
-    ImageView SOMC5;
-    ImageView SOP6;
-    ImageView MSSSOA7;
-    ImageView SOABE8;
-    ImageView SOM9;
-    ImageView SOPAHS10;
-    ImageView SOFS11;
+    ImageView soet1;
+    ImageView sovet2;
+    ImageView sof3;
+    ImageView soas4;
+    ImageView somc5;
+    ImageView sop6;
+    ImageView msssoa7;
+    ImageView soabe8;
+    ImageView som9;
+    ImageView sopahs10;
+    ImageView sofs11;
 
 
     @Nullable
     @Override
     public View onCreateView(LayoutInflater inflater, @Nullable ViewGroup container, @Nullable Bundle savedInstanceState) {
         View view = inflater.inflate(R.layout.fragment_school, container, false);
+
 
         SOET1 = (ImageView) view.findViewById(R.id.SOET1);
         SOEVT2 = (ImageView) view.findViewById(R.id.SoVET2);
@@ -54,6 +55,10 @@ public class SchoolFragment extends Fragment implements View.OnClickListener {
         SOM9.setOnClickListener(this);
         SOPAHS10.setOnClickListener(this);
         SOFS11.setOnClickListener(this);
+
+
+  
+        
 
         return view;
     }
