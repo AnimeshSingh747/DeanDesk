@@ -45,9 +45,14 @@ public class csedata extends AppCompatActivity {
                         try {
                             for (int i = 0; i < response.length(); i++) {
                                 JSONObject obj = response.getJSONObject(i);
-                                String name = obj.getString("First name");
+                                String firstName = obj.getString("First name");
+                                String middleName = obj.getString("Middle name");
+                                String lastName = obj.getString("Last name");
 
-                                arrNames.add(name);
+
+
+
+                                arrNames.add(firstName+" "+middleName +" "+lastName);
 
                                 ArrayAdapter<String> arrAdapter = new ArrayAdapter<String>(csedata.this, android.R.layout.simple_list_item_1,arrNames);
                                 listView.setAdapter(arrAdapter);
