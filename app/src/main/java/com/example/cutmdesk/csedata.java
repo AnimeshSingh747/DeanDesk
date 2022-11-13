@@ -4,17 +4,20 @@ import androidx.appcompat.app.AppCompatActivity;
 
 import android.os.Bundle;
 import android.util.Log;
+import android.widget.ArrayAdapter;
+import android.widget.ListView;
 
-import com.google.api.Http;
-import com.google.common.base.Utf8;
+import com.androidnetworking.AndroidNetworking;
+import com.androidnetworking.common.Priority;
+import com.androidnetworking.error.ANError;
+import com.androidnetworking.interfaces.JSONArrayRequestListener;
 
-import java.io.BufferedReader;
-import java.io.IOException;
-import java.io.InputStream;
-import java.io.InputStreamReader;
-import java.nio.charset.Charset;
+import org.json.JSONArray;
+import org.json.JSONException;
+import org.json.JSONObject;
+
 import java.util.ArrayList;
-import java.util.List;
+
 
 public class csedata extends AppCompatActivity {
 
@@ -23,44 +26,50 @@ public class csedata extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_csedata);
 
-        readStudentData();
-    }
+        String url = "https://retoolapi.dev/HzTcrX/data";
 
-    private List<StudentReg> studentRegs = new ArrayList<>();
-    private void readStudentData() {
-//        StudentReg reg;
-        InputStream is = getResources().openRawResource(R.raw.studentdata);
-        BufferedReader reader = new BufferedReader(
-                new InputStreamReader(is, Charset.forName("UTF-8"))
-        );
+        ListView listView = (ListView) findViewById(R.id.listView);
 
-        String line = "";
-        while (true) {
-            try {
-                if (!((line = reader.readLine()) != null)) break;
-                String[] tokens = line.split(",");
+        ArrayList<String> arrNames = new ArrayList<String>();
 
-                StudentReg reg = new StudentReg();
-                reg.setAdmissionnumber(tokens[0]);
-                reg.setRollno(Double.parseDouble(tokens[1]));
-                reg.setFirstname(tokens[2]);
-                reg.setLastname(tokens[3]);
-                reg.setUniqueid(Integer.parseInt(tokens[4]));
-                reg.setClasss(tokens[5]);
-                reg.setSemester(tokens[6]);
-                reg.setContactno(Double.parseDouble(tokens[7]));
-                studentRegs.add(reg);
+        AndroidNetworking.initialize(this);
+        AndroidNetworking.get(url)
+                .setPriority(Priority.HIGH)
+                .build()
+                .getAsJSONArray(new JSONArrayRequestListener() {
+                    @Override
+                    public void onResponse(JSONArray response) {
+                        Log.d("RES", response.toString());
 
-                Log.d("MyActivity", "Student information" + reg);
+                        //parse
+                        try {
+                            for (int i = 0; i < response.length(); i++) {
+                                JSONObject obj = response.getJSONObject(i);
+                                String name = obj.getString("First name");
+
+                                arrNames.add(name);
+
+                                ArrayAdapter<String> arrAdapter = new ArrayAdapter<String>(csedata.this, android.R.layout.simple_list_item_1,arrNames);
+                                listView.setAdapter(arrAdapter);
+
+                            }
 
 
-            }
-            catch (IOException e) {
-                Log.wtf("MyActivity","Error reading data file on line" + line, e);
-                e.printStackTrace();
-            }
+                        } catch (JSONException e) {
+                            e.printStackTrace();
+                        }
 
-        }
+
+                    }
+
+                    @Override
+                    public void onError(ANError anError) {
+                        anError.printStackTrace();
+                        Log.e("RES", anError.toString());
+                    }
+                });
+
+
     }
 
 
