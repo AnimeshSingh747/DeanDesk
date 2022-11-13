@@ -30,6 +30,7 @@ public class SchoolFragment extends Fragment implements View.OnClickListener {
     @Override
     public View onCreateView(LayoutInflater inflater, @Nullable ViewGroup container, @Nullable Bundle savedInstanceState) {
         View view = inflater.inflate(R.layout.fragment_school, container, false);
+
         SOET1 = (ImageView) view.findViewById(R.id.SOET1);
         SOEVT2 = (ImageView) view.findViewById(R.id.SoVET2);
         SOF3 = (ImageView) view.findViewById(R.id.SOF3);
@@ -52,8 +53,8 @@ public class SchoolFragment extends Fragment implements View.OnClickListener {
         SOABE8.setOnClickListener(this);
         SOM9.setOnClickListener(this);
         SOPAHS10.setOnClickListener(this);
-        SOF3.setOnClickListener(this);
-        
+        SOFS11.setOnClickListener(this);
+
         return view;
     }
 
@@ -61,11 +62,12 @@ public class SchoolFragment extends Fragment implements View.OnClickListener {
     public void onClick(View v) {
 
         Intent soetIntent = new Intent(getActivity().getApplication(), soetdepartment.class);
-        Intent soevtIntent = new Intent(getActivity().getApplication(), soetdepartment.class);
+
 
         startActivity(soetIntent);
-        startActivity(soevtIntent);
+
 
     }
+
 
 }
