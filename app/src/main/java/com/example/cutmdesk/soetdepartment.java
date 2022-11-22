@@ -23,8 +23,8 @@ public class soetdepartment extends AppCompatActivity {
 
             @Override
             public void onClick(View v) {
-                Intent csedata = new Intent(soetdepartment.this, com.example.cutmdesk.csedata.class);
-                startActivity(csedata);
+                Intent cseActivity = new Intent(soetdepartment.this, CSEActivity.class);
+                startActivity(cseActivity);
             }
         });
 

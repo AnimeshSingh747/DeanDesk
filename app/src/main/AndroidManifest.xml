@@ -12,7 +12,7 @@
         android:label="Dean's Desk"
         android:roundIcon="@drawable/cutm"
         android:supportsRtl="true"
-        android:hardwareAccelerated="true"
+        android:hardwareAccelerated="false"
         android:largeHeap="true"
         android:theme="@style/Theme.CUTMDesk"
         tools:targetApi="33">
@@ -24,7 +24,7 @@
                 android:value="" />
         </activity>
         <activity
-            android:name=".csedata"
+            android:name=".CSEActivity"
             android:exported="false">
             <meta-data
                 android:name="android.app.lib_name"

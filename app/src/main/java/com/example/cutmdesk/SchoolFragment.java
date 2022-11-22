@@ -32,6 +32,7 @@ public class SchoolFragment extends Fragment implements View.OnClickListener {
         View view = inflater.inflate(R.layout.fragment_school, container, false);
 
 
+
         soet1 = (ImageView) view.findViewById(R.id.soet1);
         sovet2 = (ImageView) view.findViewById(R.id.sovet2);
         sof3 = (ImageView) view.findViewById(R.id.sof3);
