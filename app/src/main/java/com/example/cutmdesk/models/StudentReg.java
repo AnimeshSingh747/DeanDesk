@@ -1,4 +1,4 @@
-package com.example.cutmdesk;
+package com.example.cutmdesk.models;
 
 public class StudentReg {
     private String admissionnumber;

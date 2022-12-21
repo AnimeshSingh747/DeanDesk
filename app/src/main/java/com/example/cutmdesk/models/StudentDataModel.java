@@ -1,11 +1,11 @@
-package com.example.cutmdesk;
+package com.example.cutmdesk.models;
 
 
 
 import com.google.gson.annotations.Expose;
 import com.google.gson.annotations.SerializedName;
 
-public class StudentDetailsModal {
+public class StudentDataModel {
 
     @SerializedName("id")
     @Expose

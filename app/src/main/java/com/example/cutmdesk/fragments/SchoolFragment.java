@@ -1,4 +1,4 @@
-package com.example.cutmdesk;
+package com.example.cutmdesk.fragments;
 
 import android.content.Intent;
 import android.os.Bundle;
@@ -9,6 +9,9 @@ import android.widget.ImageView;
 
 import androidx.annotation.Nullable;
 import androidx.fragment.app.Fragment;
+
+import com.example.cutmdesk.R;
+import com.example.cutmdesk.activities.soetdepartment;
 
 public class SchoolFragment extends Fragment implements View.OnClickListener {
 

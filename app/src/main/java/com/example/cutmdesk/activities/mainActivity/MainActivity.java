@@ -1,4 +1,4 @@
-package com.example.cutmdesk;
+package com.example.cutmdesk.activities.mainActivity;
 
 import android.annotation.SuppressLint;
 import android.os.Bundle;
@@ -11,6 +11,12 @@ import androidx.appcompat.widget.Toolbar;
 import androidx.core.view.GravityCompat;
 import androidx.drawerlayout.widget.DrawerLayout;
 
+import com.example.cutmdesk.R;
+import com.example.cutmdesk.fragments.SchoolFragment;
+import com.example.cutmdesk.fragments.ConnectFragment;
+import com.example.cutmdesk.fragments.ContactFragment;
+import com.example.cutmdesk.fragments.DashboardFragment;
+import com.example.cutmdesk.fragments.DeanFragment;
 import com.google.android.material.navigation.NavigationView;
 
 public class MainActivity extends AppCompatActivity implements NavigationView.OnNavigationItemSelectedListener  {

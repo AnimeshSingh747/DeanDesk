@@ -12,19 +12,19 @@
         android:label="Dean's Desk"
         android:roundIcon="@drawable/cutm"
         android:supportsRtl="true"
-        android:hardwareAccelerated="false"
+        android:hardwareAccelerated="true"
         android:largeHeap="true"
         android:theme="@style/Theme.CUTMDesk"
         tools:targetApi="33">
         <activity
-            android:name=".soetdepartment"
+            android:name=".activities.soetdepartment"
             android:exported="false">
             <meta-data
                 android:name="android.app.lib_name"
                 android:value="" />
         </activity>
         <activity
-            android:name=".CSEActivity"
+            android:name=".activities.CSEActivity"
             android:exported="false">
             <meta-data
                 android:name="android.app.lib_name"
@@ -32,14 +32,14 @@
         </activity>
 
         <activity
-            android:name=".activity_login"
+            android:name=".activities.activity_login"
             android:exported="false">
             <meta-data
                 android:name="android.app.lib_name"
                 android:value="" />
         </activity>
         <activity
-            android:name=".splash_screen"
+            android:name=".activities.splashScreen.splash_screen"
             android:exported="true">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
@@ -52,7 +52,7 @@
                 android:value="" />
         </activity>
         <activity
-            android:name=".MainActivity"
+            android:name=".activities.mainActivity.MainActivity"
             android:exported="true">
             <meta-data
                 android:name="android.app.lib_name"
@@ -60,7 +60,7 @@
         </activity>
 
         <activity
-            android:name=".DashboardFragment"
+            android:name=".fragments.DashboardFragment"
             android:exported="true">
             <meta-data
                 android:name="android.app.lib_name"

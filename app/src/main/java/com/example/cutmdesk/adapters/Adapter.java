@@ -1,4 +1,4 @@
-package com.example.cutmdesk;
+package com.example.cutmdesk.adapters;
 
 import android.content.Context;
 import android.view.LayoutInflater;
@@ -11,6 +11,9 @@ import androidx.annotation.NonNull;
 import androidx.recyclerview.widget.RecyclerView;
 
 //import com.squareup.picasso.Picasso;
+
+import com.example.cutmdesk.R;
+import com.example.cutmdesk.models.StudentDataModel;
 
 import java.util.List;
 

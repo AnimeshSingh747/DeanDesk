@@ -1,4 +1,4 @@
-package com.example.cutmdesk;
+package com.example.cutmdesk.activities;
 
 import androidx.appcompat.app.AppCompatActivity;
 import androidx.recyclerview.widget.LinearLayoutManager;
@@ -14,6 +14,9 @@ import com.android.volley.Response;
 import com.android.volley.VolleyError;
 import com.android.volley.toolbox.JsonArrayRequest;
 import com.android.volley.toolbox.Volley;
+import com.example.cutmdesk.adapters.Adapter;
+import com.example.cutmdesk.R;
+import com.example.cutmdesk.models.StudentDataModel;
 
 import org.json.JSONArray;
 import org.json.JSONException;

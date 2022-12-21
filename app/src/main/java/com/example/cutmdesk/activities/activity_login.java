@@ -1,4 +1,4 @@
-package com.example.cutmdesk;
+package com.example.cutmdesk.activities;
 
 import androidx.annotation.NonNull;
 import androidx.appcompat.app.AppCompatActivity;
@@ -10,6 +10,8 @@ import android.widget.Button;
 import android.widget.EditText;
 import android.widget.Toast;
 
+import com.example.cutmdesk.activities.mainActivity.MainActivity;
+import com.example.cutmdesk.R;
 import com.google.firebase.database.DataSnapshot;
 import com.google.firebase.database.DatabaseError;
 import com.google.firebase.database.DatabaseReference;
@@ -59,7 +61,7 @@ public class activity_login extends AppCompatActivity {
                                     Toast.makeText(activity_login.this, "Successfully Logged in", Toast.LENGTH_SHORT).show();
 
                                     //Starting student form
-                                    startActivity(new Intent(activity_login.this,MainActivity.class));
+                                    startActivity(new Intent(activity_login.this, MainActivity.class));
                                     finish();
                                 } else {
                                     Toast.makeText(activity_login.this, "Wrong Credentials", Toast.LENGTH_SHORT).show();

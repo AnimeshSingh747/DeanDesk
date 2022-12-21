@@ -1,4 +1,4 @@
-package com.example.cutmdesk;
+package com.example.cutmdesk.activities.splashScreen;
 
 import android.annotation.SuppressLint;
 import android.content.Intent;
@@ -6,6 +6,9 @@ import android.os.Bundle;
 import android.view.WindowManager;
 
 import androidx.appcompat.app.AppCompatActivity;
+
+import com.example.cutmdesk.R;
+import com.example.cutmdesk.activities.activity_login;
 
 @SuppressLint("CustomSplashScreen")
 public class splash_screen extends AppCompatActivity {
